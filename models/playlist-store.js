@@ -39,6 +39,12 @@ removeSong(id, songId) {
 
   async removePlaylist(id, response) {
     const playlist = this.getPlaylist(id);
+    // fixes
+    if (!playlist) {
+        loggererror("Playlist not found:", id);
+        response();
+        return;
+    }
 
     if (playlist.picture && playlist.picture.public_id) {
       try {
