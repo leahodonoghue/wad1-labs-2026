@@ -72,6 +72,22 @@
             Average Rating: {{displayAvgRating}}
           </div>
         </div>
+
+         <div class="ui purple statistic">
+          <div class="value">
+            <i class="plus icon"></i>
+          </div>
+          <div class="label">
+            Largest Playlist: {{displayMaxSongs}}
+            <table>
+              {{#each displayLargestPlaylists}}
+              <tr>
+                <td>{{this}}</td>
+              </tr>
+              {{/each}}
+            </table>
+          </div>
+        </div>
 		
       </div>
     </div>

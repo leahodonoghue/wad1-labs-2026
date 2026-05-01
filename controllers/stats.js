@@ -21,6 +21,11 @@ let maxRating = Math.max(...playlists.map(playlist => playlist.rating));
 let maxRated = playlists.filter(playlist => playlist.rating === maxRating);
 let favTitles = maxRated.map(item => item.title);
 
+let maxSongs = Math.max(...playlists.map(playlist => playlist.length));
+
+let largestPlaylists = playlists.filter(playlist => playlist.songs.length === maxSongs);
+
+let largestTitles = largestPlaylists.map(playlist => playlist.title);
 
     const statistics = {
       displayNumPlaylists: numPlaylists,
@@ -28,7 +33,9 @@ let favTitles = maxRated.map(item => item.title);
     displayAverage: average,
     displayAvgRating: avgRating.toFixed(2),
 	  highest: maxRating,
-    displayFav: favTitles
+    displayFav: favTitles,
+    displayMaxSongs: maxSongs,
+    displayLargestPlaylists: largestTitles
     }
 
     const viewData = {
