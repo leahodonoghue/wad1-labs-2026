@@ -27,6 +27,13 @@
       "email": "tester@app.com",
       "password": "secret",
       "id": "20a2fcf7-a357-4fd8-b928-46657aed09c0"
+    },
+    {
+      "firstName": "bart",
+      "lastName": "simpson",
+      "email": "bart@simpson.com",
+      "password": "secret",
+      "id": "81c89163-898c-4802-8567-8234b7febc04"
     }
   ]
 }
