@@ -42,6 +42,7 @@ const accounts = {
     const user = request.body;
     user.id = uuidv4();
     userStore.addUser(user);
+    response.cookie('playlist', user.email);
     logger.info('registering' + user.email);
     response.redirect('/');
   },
