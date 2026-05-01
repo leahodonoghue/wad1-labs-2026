@@ -1,11 +1,20 @@
 {
   "playlistCollection": [
     {
-      "id": "5727fdf4-f882-443b-b998-423f95da39e1",
-      "title": "Homer's new playlist",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "id": "4e0a9426-f920-45b8-adf1-53f01e8547b5",
+      "title": "homer's playlist",
       "rating": 4,
-      "date": "2026-05-01T02:17:26.742Z",
-      "songs": []
+      "songs": [],
+      "date": "2026-05-01T02:21:34.285Z"
+    },
+    {
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "id": "f9b23763-c32b-438d-9ffd-a0a79735323a",
+      "title": "marges playlist",
+      "rating": 4,
+      "songs": [],
+      "date": "2026-05-01T02:21:55.727Z"
     }
   ]
 }
