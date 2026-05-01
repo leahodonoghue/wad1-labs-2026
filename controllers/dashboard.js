@@ -25,6 +25,7 @@ const dashboard = {
     const newPlaylist = {
       id: uuidv4(),
       title: request.body.title,
+      rating: parseInt(request.body.rating),
 	  date: timestamp,
       songs: []
     };
