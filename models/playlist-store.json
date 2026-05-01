@@ -17,12 +17,16 @@
       "date": "2026-05-01T02:21:55.727Z"
     },
     {
+      "id": "8fb2991f-43fd-4dec-89ad-a80765882add",
       "userid": "2c77aca5-ebc6-409f-a2ef-25aca2f72770",
-      "id": "e5c9648d-c113-4ce4-a4ae-3197aa14e989",
-      "title": "leahs playlist",
+      "title": "sandys playlist",
       "rating": 5,
       "songs": [],
-      "date": "2026-05-01T02:26:02.136Z"
+      "date": "2026-05-01T03:37:43.552Z",
+      "picture": {
+        "url": "http://res.cloudinary.com/de0oxw7u1/image/upload/v1777606666/vurz80kue7kbugmy00qd.heic",
+        "public_id": "vurz80kue7kbugmy00qd"
+      }
     }
   ]
 }
