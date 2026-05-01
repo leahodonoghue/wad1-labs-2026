@@ -21,7 +21,7 @@ let maxRating = Math.max(...playlists.map(playlist => playlist.rating));
 let maxRated = playlists.filter(playlist => playlist.rating === maxRating);
 let favTitles = maxRated.map(item => item.title);
 
-let maxSongs = Math.max(...playlists.map(playlist => playlist.length));
+let maxSongs = Math.max(...playlists.map(playlist => playlist.songs.length));
 
 let largestPlaylists = playlists.filter(playlist => playlist.songs.length === maxSongs);
 

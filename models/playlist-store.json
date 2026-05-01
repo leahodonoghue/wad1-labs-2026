@@ -45,17 +45,50 @@
       ]
     },
     {
-      "id": "03",
-      "title": "Beethoven Unfinished Symphonies",
-      "rating": 5,
-      "songs": []
+      "id": "10995aa6-3c44-4969-822c-296cc587b862",
+      "title": "new test",
+      "rating": 2,
+      "date": "2026-05-01T01:44:27.676Z",
+      "songs": [
+        {
+          "id": "a3b6afda-bcdc-4546-8372-0643a3e7ae10",
+          "title": "test song",
+          "artist": "tester"
+        },
+        {
+          "id": "970ce7a8-f25d-42d7-9dd9-015f6fcb7490",
+          "title": "helllo",
+          "artist": "testststs"
+        }
+      ]
     },
     {
-      "id": "5c36aa1e-a48c-47cc-b8bf-4822dd34cb2f",
-      "title": "beethovens best",
-      "rating": 5,
-      "date": "2026-05-01T00:44:39.411Z",
-      "songs": []
+      "id": "4d63b50a-2528-4319-9980-772fbf966016",
+      "title": "hello",
+      "rating": 3,
+      "date": "2026-05-01T01:46:16.080Z",
+      "songs": [
+        {
+          "id": "51e17c61-7e4f-4cd5-a423-95c4c46a0fa8",
+          "title": "kk",
+          "artist": "eee"
+        },
+        {
+          "id": "cbb34267-ae8a-4f69-b517-0b50fba05294",
+          "title": "eew",
+          "artist": "eewwe"
+        },
+        {
+          "id": "09b22fc9-6598-42a0-9b3b-eef7cf7c78f0",
+          "title": "ewewwe",
+          "artist": "ewew"
+        },
+        {
+          "id": "fc68a4b2-56c8-4758-af98-43b1952111e5",
+          "title": "eewew",
+          "artist": "ewewew"
+        }
+      ]
     }
   ]
 }
