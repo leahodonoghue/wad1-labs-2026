@@ -13,6 +13,13 @@
       "email": "marge@simpson.com",
       "password": "secret",
       "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Leah",
+      "lastName": "O'Donoghue",
+      "email": "leah@odonoghue.com",
+      "password": "secret",
+      "id": "2c77aca5-ebc6-409f-a2ef-25aca2f72770"
     }
   ]
 }

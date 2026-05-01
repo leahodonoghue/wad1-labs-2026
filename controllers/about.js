@@ -2,18 +2,25 @@
 
 import logger from "../utils/logger.js";
 import empStore from "../models/emp-store.js";
+import accounts from './accounts.js';
+
 
 const about = {
-    createView(request, response) {
-      logger.info("About page loading!");
-
+   createView(request, response) {
+    const loggedInUser = accounts.getCurrentUser(request);
+    logger.info("About page loading!");
+    
+    if (loggedInUser) {
       const viewData = {
-        title: "Playlist App About",
-        employees: empStore.getEmpInfo()
+        title: 'About the Playlist App',
+        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+        employees: empStore.getEmpInfo(),
       };
-      logger.info(viewData.emps)
-      response.render('about', viewData); 
-    },
+      response.render('about', viewData);
+    }
+    else response.redirect('/');    
+},
+
   };
   
 
